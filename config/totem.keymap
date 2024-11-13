@@ -103,10 +103,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                      &kp Q     &kp W  &kp F                       &kp P        &kp B        &kp J                         &kp L        &kp U                 &kp DE_Z    &kp DE_SEMICOLON
-                      &kp A     &kp R  &kp S                       &kp T        &kp G        &kp H                         &kp N        &kp E                 &kp I       &kp O
-&mt LEFT_CONTROL ESC  &kp DE_Y  &kp X  &kp C                       &kp D        &kp V        &kp K                         &kp H        &kp DE_COMMA          &kp DE_DOT  &kp DE_SLASH      &kp DE_BACKSLASH
-                                       &mt LEFT_COMMAND BACKSPACE  &lt NAV TAB  &kp SPACE    &hold_sticky CAPS LEFT_SHIFT  &lt SYM TAB  &mt RIGHT_ALT DELETE
+                      &kp Q     &kp W  &kp F                       &kp P        &kp B        &kp J                                &kp L        &kp U                 &kp DE_Z    &kp DE_SEMICOLON
+                      &kp A     &kp R  &kp S                       &kp T        &kp G        &kp H                                &kp N        &kp E                 &kp I       &kp O
+&mt LEFT_CONTROL ESC  &kp DE_Y  &kp X  &kp C                       &kp D        &kp V        &kp K                                &kp H        &kp DE_COMMA          &kp DE_DOT  &kp DE_SLASH      &kp DE_BACKSLASH
+                                       &mt LEFT_COMMAND BACKSPACE  &lt NAV TAB  &kp SPACE    &hold_sticky RIGHT_SHIFT LEFT_SHIFT  &lt SYM TAB  &mt RIGHT_ALT DELETE
             >;
         };
 
