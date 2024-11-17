@@ -34,10 +34,10 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_tab {
+        combo_esc {
             timeout-ms = <50>;
             key-positions = <0 1>;
-            bindings = <&kp TAB>;
+            bindings = <&kp ESC>;
         };
 
         combo_tvp {
@@ -105,7 +105,7 @@
             bindings = <
                       &kp Q     &kp W  &kp F                       &kp P        &kp B        &kp J            &kp L        &kp U                 &kp DE_Z    &kp DE_BACKSLASH
                       &kp A     &kp R  &kp S                       &kp T        &kp G        &kp H            &kp N        &kp E                 &kp I       &kp O
-&mt LEFT_CONTROL ESC  &kp DE_Y  &kp X  &kp C                       &kp D        &kp V        &kp K            &kp H        &kp DE_COMMA          &kp DE_DOT  &kp DE_GREATER_THAN  &kp A
+&mt LEFT_CONTROL ESC  &kp DE_Y  &kp X  &kp C                       &kp D        &kp V        &kp K            &kp H        &kp DE_COMMA          &kp DE_DOT  &kp DE_GREATER_THAN  &kp DE_UNDERSCORE
                                        &mt LEFT_COMMAND BACKSPACE  &lt NAV TAB  &kp SPACE    &kp RIGHT_SHIFT  &lt SYM TAB  &mt RIGHT_ALT DELETE
             >;
         };
