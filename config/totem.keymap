@@ -103,9 +103,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                      &kp Q     &kp W  &kp F                       &kp P        &kp B        &kp J            &kp L        &kp U                 &kp DE_Z    &kp DE_BACKSLASH
-                      &kp A     &kp R  &kp S                       &kp T        &kp G        &kp H            &kp N        &kp E                 &kp I       &kp O
-&mt LEFT_CONTROL ESC  &kp DE_Y  &kp X  &kp C                       &kp D        &kp V        &kp K            &kp H        &kp DE_COMMA          &kp DE_DOT  &kp DE_LT         &kp ENTER
+                      &kp Q     &kp W  &kp F                       &kp P        &kp B        &kp J            &kp L        &kp U                 &kp DE_Z    &kp DE_SLASH
+                      &kp A     &kp R  &kp S                       &kp T        &kp G        &kp M            &kp N        &kp E                 &kp I       &kp O
+&mt LEFT_CONTROL ESC  &kp DE_Y  &kp X  &kp C                       &kp D        &kp V        &kp K            &kp H        &kp DE_COMMA          &kp DE_DOT  &kp DE_LT     &kp ENTER
                                        &mt LEFT_COMMAND BACKSPACE  &lt NAV TAB  &kp SPACE    &kp RIGHT_SHIFT  &lt SYM TAB  &mt RIGHT_ALT DELETE
             >;
         };
