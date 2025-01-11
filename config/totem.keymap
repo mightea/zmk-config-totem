@@ -42,13 +42,13 @@
 
         combo_esc {
             timeout-ms = <100>;
-            key-positions = <13 14>;
+            key-positions = <13 12>;
             bindings = <&kp ESC>;
         };
 
         combo_enter {
             bindings = <&kp ENTER>;
-            key-positions = <16 15>;
+            key-positions = <16 17>;
         };
     };
 
@@ -175,10 +175,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp TAB    &kp I      &kp LC(LALT)  &kp O      &kp LC(F20)    &kp DE_N7  &kp DE_N8    &kp DE_N9    &none      &none
-       &lt 5 L    &kp LEFT   &kp LALT      &kp RIGHT  &kp SPACE      &kp DE_N4  &kp DE_N5    &kp DE_N6    &none      &none
-&kp J  &kp LSHFT  &kp LC(C)  &kp BSPC      &kp LC(V)  &kp LC(F19)    &kp DE_N1  &kp DE_N2    &kp DE_N3    &kp DE_N0  &none  &none
-                             &trans        &trans     &trans         &none      &kp DE_STAR  &kp DE_FSLH
+       &kp TAB    &kp I      &kp LC(LALT)    &kp O           &kp LC(F20)        &kp DE_N7  &kp DE_N8    &kp DE_N9    &none      &none
+       &lt 5 L    &kp LEFT   &kp LALT        &kp UP_ARROW    &kp SPACE          &kp DE_N4  &kp DE_N5    &kp DE_N6    &none      &none
+&kp J  &kp LSHFT  &kp LC(C)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp DE_N1  &kp DE_N2    &kp DE_N3    &kp DE_N0  &none  &none
+                             &trans          &trans          &trans             &none      &kp DE_STAR  &kp DE_FSLH
             >;
         };
 
